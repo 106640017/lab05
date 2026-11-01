@@ -1,0 +1,121 @@
+/*
+filename: layout.css
+author: Abdulrahman Shehada
+created: 01/11/2026
+last modified: 01/11/2026
+description: CSS layout styling for lab05.html
+*/
+
+/* Menu */
+
+.menu {
+    display: inline-block;
+}
+
+/* Aside */
+
+aside:hover {
+    display: block;
+    opacity: 1;
+}
+
+aside {
+    border: 4px inset purple;
+    border-radius: 14px;
+    margin: 1em;
+    padding: 1em;
+    width: 30%;
+    background: url(images/fade.jpg) repeat-x top left;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+/* Header */
+
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* Lists */
+
+#lists {
+    float: left;
+}
+
+/* Tables */
+
+#tables {
+    float: right;
+}
+
+table {
+    margin: auto;
+}
+
+/* Hyperlinks */
+
+#hyperlinks {
+    clear: both;
+    float: left;
+}
+
+/* Images */
+
+#images {
+    float: right;
+}
+
+figure {
+    border: 2px solid #cccccc;
+}
+
+/* Two columns */
+
+#lists,
+#tables,
+#hyperlinks,
+#images {
+    width: 50%;
+    text-align: center;
+}
+
+ul,
+ol,
+dl {
+    text-align: left;
+}
+
+/* Article */
+
+article {
+    min-width: 30em;
+}
+
+/* Footer */
+
+footer {
+    border-top: 4px double darkgray;
+    clear: both;
+}
+
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
